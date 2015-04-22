@@ -70,7 +70,7 @@ run_analysis <- function() {
     ## label the features/measurements with descriptive variable name
     descNames <- gsub("\\bt", "time", featureNames)
     descNames <- gsub("\\bf", "frequency", descNames)
-    descNames <- gsub("Acc", "Accelerometer", descNames)
+    descNames <- gsub("Acc", "Acceleration", descNames)
     descNames <- gsub("Gyro", "Gyroscope", descNames)
     descNames <- gsub("Jerk", "JerkSignal", descNames)
     descNames <- gsub("Mag", "Magnitude", descNames)
