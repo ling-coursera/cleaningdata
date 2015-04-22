@@ -1,5 +1,5 @@
 # datacleaning
-This is code book for the course project for "Getting and Cleaning Data".
+This is the code book for the course project for "Getting and Cleaning Data".
 
 
 ## Data File
@@ -10,8 +10,8 @@ hcrmeanresult.csv
 
 ## Data Variables
 There are 81 data columns in this data set:
-* Subject: An identifier of the subject who carried out the experiment
-* Activity: the activity performed by the subject
+* Subject: Identifiers of the subjects who carried out the experiment
+* Activity: Activities performed by the subjects
 * Averages of 79 mean and standdard deviation measurements.  The measurement names consist of the following words:
   * time: time domain signal
   * frequency: frequency domain signal
@@ -27,10 +27,10 @@ There are 81 data columns in this data set:
 
 
 ## Data Transformation
-* Combine subjects, activities and measurements in the training data set. Use descriptive activity names.
-* Combine subjects, activities and measurements in the test data set. Use descriptive activity names.
+* Combine subjects, activities and measurements in the orignal training data set. Use descriptive activity names.
+* Combine subjects, activities and measurements in the orignal test data set. Use descriptive activity names.
 * Merge the training and the test data sets into one data set.
-* Extract subjects, activities, and only the mean and standard deviation measurements
+* Extract subjects, activities, and the mean and standard deviation measurements
 * Label the measurements with descriptive variable names.
   * t -> time
   * f -> frequency
