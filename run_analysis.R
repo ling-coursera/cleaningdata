@@ -82,5 +82,5 @@ run_analysis <- function() {
     result <- dcast(datamelt, Activity + Subject ~ variable,mean)
     
     ## write the resulting data set
-    write.csv(result, "./hcrmeanresult.csv")
+    write.table(result, "./hcrmeanresult.txt", row.name=FALSE)
 }
