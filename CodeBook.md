@@ -3,7 +3,7 @@ This is the code book for the course project for "Getting and Cleaning Data".
 
 
 ## Data File
-hcrmeanresult.csv
+hcrmeanresult.txt
 
 ## Data Origin
 [Human Activity Recognition Using Smartphones Data Set] (http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones) 
@@ -39,4 +39,4 @@ There are 81 data columns in this data set:
   * Jerk -> JerkSignal
   * Mag -> Magnitude
 * Calculate the averages of the measurements for each activity and each subject
-* Save the averages in hcrmeanresult.csv
+* Save the averages in hcrmeanresult.txt
